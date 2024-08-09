@@ -1,0 +1,146 @@
+* {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background-color: rgba(243,245, 251, 1);
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.section2{
+    padding:0px 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background : #ffffff;
+    text-align :center;
+    border-radius: 0.6em;
+}
+
+.text-area {
+    background: transparent;
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.box-nothing-message{
+    visibility: visible;
+}
+
+.box-all-message{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.mensaje {
+    /* background: white; */
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    height: 680px;
+}
+
+.mensaje:focus {
+    outline: none;
+} 
+
+.subtitulo {
+    color: #495057;
+    font-size: 18px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+
+    /* position: absolute; */
+    width: 336px;
+}
+
+.informacion {
+    color: #495057;
+    font-size: 18px;
+    background-image: url('./img/bi_exclamation-circle-fill.png');
+    background-repeat: no-repeat;
+    padding-left: 3.5%;
+    margin-left: 4%;
+}
+
+footer {
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px; /* Esta regla debería funcionar */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: inherit; /* Hereda el tamaño del footer */
+}
+
+footer a {
+    color: #1e90ff;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: inherit; /* Hereda el tamaño del footer */
+}
