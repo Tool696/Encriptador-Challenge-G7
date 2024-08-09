@@ -17,9 +17,3 @@ Este proyecto es un **encriptador y desencriptador de mensajes** que permite a l
 - **CSS3**: Estilos y diseño responsivo.
 - **JavaScript**: Lógica de encriptación y desencriptación.
 - Fuentes: [Google Fonts](https://fonts.google.com/) para tipografía.
-
-## Instalación
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
